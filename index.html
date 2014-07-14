@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>runt-client</title>
+
+  <script src="bower_components/platform/platform.js"></script>
+  <link rel="import" href="bower_components/runt-panels/runt-panel-host.html">
+  <link rel="import" href="bower_components/runt-icon/runt-icon.html">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body unresolved layout>
+  <runt-panel-host id="root" flex>
+    <runt-panel main>
+      Testing :)
+    </runt-panel>
+    <runt-panel left pinned title="Pinned left">
+      Left pinned panel
+    </runt-panel>
+    <runt-panel left title="Unpinned left">
+      Unpinned left panel
+    </runt-panel>
+    <runt-panel left title="Unpinned left 2">
+      Another Unpinned left panel
+    </runt-panel>
+    <runt-panel right title="Unpinned right">
+      An unpinned right pannel
+    </runt-panel>
+    <runt-panel bottom title="Unpinned bottom">
+      An unpinned bottom pannel
+    </runt-panel>
+  </runt-panel-host>
+</body>
+</html>
